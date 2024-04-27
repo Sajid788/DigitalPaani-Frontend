@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 0.94rem;
+  overflow: hidden;
+}
+
+.glassCard {
+  background: rgba(224, 224, 224, 0.18);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 15px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  transition: all ease 300ms;
+}
+
+.glassCard:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 640px) {
+  *,
+  ::before,
+  ::after {
+    font-size: 0.8rem;
+  }
+}
