@@ -41,13 +41,15 @@ const Card = ({
     }
   }, [iconString]);
 
+  const temperatureCelsius = Math.floor(temperature); 
+
   return (
     <div className="w-[22rem] min-w-[25rem] h-[35rem] glassCard p-6">
       <div className="flex flex-col justify-center items-center gap-4 mt-10">
         <img src={icon} alt="weather_icon" />
 
         <p className="font-bold text-5xl text-center">
-          {temperature} <span className="text-xl">&deg;C</span>
+          {temperatureCelsius} <span className="text-xl">&deg;C</span>
         </p>
       </div>
       <div className="font-bold text-center text-xl mt-4">{place}</div>
