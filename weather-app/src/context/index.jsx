@@ -5,7 +5,7 @@ const StateContext = createContext();
 export const StateContextProvider = ({ children }) => {
   const [weather, setWeather] = useState({});
   const [values, setValues] = useState([]);
-  const [place, setPlace] = useState("Ranchi");
+  const [place, setPlace] = useState("Anantapur");
   const [thisLocation, setLocation] = useState("");
 
   const fetchWeather = async () => {

@@ -17,6 +17,7 @@ link:- https://weathersajid.netlify.app/
 - Backgrounds change dynamically based on weather conditions.
 - Icons to represent different weather conditions, enhancing user understanding.
 - User experience across various devices with responsive interface design.
+- Integrating a loader involves adding a visual cue to indicate ongoing operations.
 
 ## Setup
 
