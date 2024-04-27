@@ -54,3 +54,7 @@ npm run dev
 
 #### Is this website fully Responsive?
 Yes
+
+## Responsive
+![Screenshot 2024-04-27 192401](https://github.com/Sajid788/DigitalPaani-Frontend/assets/129252454/67c91a8b-c808-4cef-96cf-83e82fd53ea3)
+
