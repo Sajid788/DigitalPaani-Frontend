@@ -18,7 +18,7 @@ function App() {
     <div className="w-full h-screen text-white px-8">
       <nav className="w-full p-3 flex justify-between items-center">
         <h3 className="font-bold tracking-wide text-2xl">Weather App</h3>
-        <div className="bg-white w-[11rem] overflow-hidden shadow-1xl rounded flex items-center p-2 gap-2">
+        <div className="bg-white w-[11rem] overflow-hidden shadow-1xl rounded flex items-center p-1.5 gap-2">
           <img src={search} alt="search" className="w-[1.5rem] h-[1.5rem]" />
           <input
             onKeyUp={(e) => {
